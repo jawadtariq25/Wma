@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var quiz_question = [prompt("who is Last prophet of Allah Almighty?\n a)Hazart Adam A.S \n b)Hazart Muhammad S.A.W \n c)Hazart Isa A.S \n d)Hazart Musa A.S"),prompt("Who is the First Caliphte of Islam?\n a)Hazart Umar R.A \n b)Hazart Usman R.A \n c)Hazart Abu Bakar R.A \n d)Hazart Ali R.A"),prompt("Who is Writer of Sahih Bukari?\n a)Imam Bukari \n b)Imam Muslim \n c)Ibn Maja \n d)An-nasai")];
+        var marks = 0;
+        if (quiz_question[0]=="b"){
+            marks=+5;
+        }
+        
+        if(quiz_question[1]=="c"){
+            marks+=5;
+        }
+        if(quiz_question[2]=="a"){
+            marks+=5;
+        }
+        document.write("This is Your Final Result--->"+marks);
+    </script>
+</body>
+</html>
